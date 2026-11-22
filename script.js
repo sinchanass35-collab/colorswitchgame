@@ -25,8 +25,8 @@ let playing = false;
 let animationId = null;
 let lastTime = 0;
 
-const gravity = 0.00028;
-const jumpPower = 0.42;
+const gravity = 0.00022;
+const jumpPower = 0.20;
 const ringRadius = 65;
 const ballRadius = 10;
 
