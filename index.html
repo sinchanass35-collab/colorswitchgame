@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switch Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1><span>COLOR</span> SWITCH</h1>
+            <p>Match the colors. Beat your best!</p>
+        </header>
+
+        <div class="game-box">
+            <div class="top-bar">
+                <span id="score">Score: 0</span>
+                <span id="best">Best: 0</span>
+            </div>
+
+            <canvas id="gameCanvas"></canvas>
+
+            <div class="overlay" id="overlay">
+                <h2 id="overlayTitle">COLOR SWITCH</h2>
+                <p id="overlayText">
+                    Tap to jump and match the colors!
+                </p>
+                <button id="playButton">PLAY</button>
+            </div>
+        </div>
+
+        <p class="instructions">
+            TAP / CLICK / SPACEBAR TO JUMP
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
